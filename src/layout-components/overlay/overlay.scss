@@ -1,0 +1,17 @@
+.background__blur 
+{
+    position: absolute;
+    top: 0;
+    display: none;    
+    background-color: #141B34ee;
+    height: 100%;
+    width: 100vw;
+    z-index: 3; 
+    transition: all ease-in .2s;   
+}
+
+.background__blur__on
+{
+   display: flex;   
+}
+
