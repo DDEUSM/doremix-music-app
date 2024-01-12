@@ -1,0 +1,41 @@
+@import url("/src//index.scss");
+
+.default_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 0px;        
+    padding: 0px;
+}
+
+.rotate_180 {
+    transform: rotate(180deg);
+}
+
+.rotate_270 {
+    transform: rotate(270deg);
+}
+
+.blue {
+    color: var(--main-blue);
+}
+
+.light_blue {
+    color: var(--light-blue);
+}
+
+.white {
+    color: var(--white);
+}
+
+.light_gray {
+    color: var(--light-gray);
+}
+
+.black {
+    color: var(--main-black);
+}
+
+
+

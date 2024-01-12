@@ -1,6 +1,5 @@
-import { PropsWithChildren } from "react";
-import uiIcons from "../../assets/ui-icons";
 
+import uiIcons from "../../assets/ui-icons";
 import "./header.scss";
 import DoremixIcons from "../../assets/doremix-icons";
 
@@ -11,7 +10,7 @@ type TProps = {
 export default function({ openNavBar }: TProps)
 {
     return(
-        <header className="header__container">
+        <header className="header_container">
             <uiIcons.MainMenuBurguerIcon 
             height={24} width={27}
             onClick={openNavBar}

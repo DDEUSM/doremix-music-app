@@ -1,16 +1,18 @@
-.background__blur 
+@import "../../index.scss";
+
+.overlay 
 {
     position: absolute;
     top: 0;
     display: none;    
-    background-color: #141B34ee;
+    background-color: var(--overlay-blue);
     height: 100%;
-    width: 100vw;
+    width: 100%;
     z-index: 3; 
     transition: all ease-in .2s;   
 }
 
-.background__blur__on
+.overlay__on
 {
    display: flex;   
 }

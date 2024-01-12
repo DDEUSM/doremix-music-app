@@ -1,11 +1,11 @@
 @import "../../index.scss";
 
-.navbar__container 
+.navbar_container 
 {    
     position: absolute;    
     top: 0;
     margin-left: -62vw;
-    height: 100vh;
+    height: 100%;
     width: 60vw;
     background-color: var(--white);
     box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.151);
@@ -31,6 +31,7 @@
         gap: 5px;
         margin: 0px 10px;
         height: 45px;        
+        font-size: 14px;
         border: 2px solid transparent; 
         transition: all ease-in .2s;       
     }
