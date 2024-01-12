@@ -1,5 +1,6 @@
 import { useState } from "react";
 import layout from "./layout-components"
+import Main from "./pages/main";
 
 function appProcesses()
 {
@@ -17,8 +18,7 @@ function appProcesses()
 }
 
 export default function App() 
-{
-    
+{    
     const process = appProcesses();
         
     return (
@@ -26,8 +26,12 @@ export default function App()
             <layout.Overlay navBarIsOpen={process.navBarIsOpen}
                 openNavBar={process.toggleNavBar}
             />
-            <layout.Header openNavBar={process.toggleNavBar}/>                                  
-            <layout.Navbar navBarIsOpen={process.navBarIsOpen}/>                           
+            <layout.Header openNavBar={process.toggleNavBar}/>
+
+            <Main />                                  
+            
+            <layout.Navbar navBarIsOpen={process.navBarIsOpen}/>    
+            <layout.PlayerControlsBar />                       
         </>
     )
 }

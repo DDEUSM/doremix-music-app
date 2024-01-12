@@ -6,7 +6,7 @@ import { TNavBarProps } from "./types";
 export default function({ navBarIsOpen }: TNavBarProps)
 {
     return (                
-        <nav className={`navbar__container ${navBarIsOpen?(
+        <nav className={`navbar_container ${navBarIsOpen?(
             `navbar__opened`):(``)}`}>
             <DoremixIcons.FullDoremixLogo 
             width={183} height={35} 

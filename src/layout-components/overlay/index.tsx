@@ -4,8 +4,8 @@ import "./overlay.scss";
 export default function({ navBarIsOpen, openNavBar }: TBackgroundBlurProps)
 {
     return (
-        <div className={`background__blur ${navBarIsOpen?(
-            `background__blur__on`):(``)}`}
+        <div className={`overlay ${navBarIsOpen?(
+            `overlay__on`):(``)}`}
             onClick={openNavBar}
             >
         </div>
