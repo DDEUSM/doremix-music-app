@@ -1,0 +1,24 @@
+@import url("../../../../index.scss");
+
+.genres_slider {
+    height: 30x;
+    width: 100%;
+    
+    .swiper {
+        width: 100%;
+        height: 30px;
+    }
+      
+    .swiper-slide {
+        text-align: center;
+        font-size: 16px;
+        box-sizing: border-box;
+        color: var(--light-gray);
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid var(--light-gray);
+        border-radius: 6px;
+    }
+}

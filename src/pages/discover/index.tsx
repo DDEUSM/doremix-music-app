@@ -16,12 +16,7 @@ export default function Discover()
                 <MusicGenres />                
 
             </div>
-            <div className="discover__musics">
-
-            </div>
-            <div className="discover__slider">
-                
-            </div>
+           
         </div>
     )
 }
