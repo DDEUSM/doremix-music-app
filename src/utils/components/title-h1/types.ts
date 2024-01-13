@@ -1,4 +1,6 @@
-type TProps = {
-    color: "blue" | "light_blue" | "black" | "light_gray" | "white",
+import { TColors } from "../../utils-types";
+
+export type TProps = {
+    color: TColors,
     text: string,
 }

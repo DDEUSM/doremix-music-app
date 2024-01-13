@@ -9,6 +9,8 @@ import PlayMusicIcon from "./play-icon.svg?react";
 import NextMusicIcon from "./next-music-icon.svg?react";
 import LoopMusicIcon from "./loop-icon.svg?react";
 import Arrow from "./next-arrow-icon.svg?react";
+import GridView from "./grid-view.svg?react";
+import ListView from "./menu-burguer-icon.svg?react";
 
 export default 
 {
@@ -23,5 +25,7 @@ export default
     NextMusicIcon,
     LoopMusicIcon,
     Arrow,
+    GridView, 
+    ListView
 }
 

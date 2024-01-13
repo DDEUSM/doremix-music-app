@@ -1,4 +1,5 @@
 import "./TitleH1.scss";
+import { TProps } from "./types";
 
 export default function TitleH1({ color, text }: TProps)
 {

@@ -1,6 +1,24 @@
 .discover__musics {
     
-    .discover__musics__slider {
 
-    }
+}
+
+.discover__musics__slider {
+
+}
+
+.discover__musics__item {
+    box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+.discover__musics__item__img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.discover__musics__item__infos {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(var(--main-blue), var(--middle-blue) 70%,var(--light-blue));
 }
