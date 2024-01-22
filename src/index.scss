@@ -15,7 +15,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
+
+
+body, html {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;    
@@ -23,3 +25,9 @@ body {
     height: 100%;
 }
 
+.display {
+    display: flex;
+    
+    align-items: center;
+    width: 100%;
+}

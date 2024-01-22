@@ -1,24 +1,45 @@
-.discover__musics {
-    
 
+
+.discover__music__slider {
+    display: flex;
+
+    width: 100%;
+    height: calc((198px * 2) + 40px);
 }
 
-.discover__musics__slider {
-
+.discover__music__item {
+    display: flex;    
+    justify-content: center;
+    align-content: center;
+    max-width: 150px; 
+    max-height: 190px;     
 }
 
-.discover__musics__item {
-    box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.459);
-}
-
-.discover__musics__item__img {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-}
-
-.discover__musics__item__infos {
+.discover__music__item__area {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 145px; 
+    height: 185px; 
+    box-sizing: border-box;     
+    box-shadow: 3px 10px 7px 1px rgba(0, 0, 0, 0.541);    
+}
+
+.discover__music__item__img {
+    max-width: 145px;
+    min-height: 145px;    
+    object-fit: cover;    
+}
+
+.discover__music__item__infos {
+    height: calc(185px - 145px);
+    width: 100%;
+    box-sizing: border-box;    
+    padding: 0px 6px;
     background-image: linear-gradient(var(--main-blue), var(--middle-blue) 70%,var(--light-blue));
+}
+
+Swiper {
+    height: 400px;
 }

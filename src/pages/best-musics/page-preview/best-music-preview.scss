@@ -1,0 +1,41 @@
+@import url("../../../index.scss");
+
+.best_musics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;    
+}
+
+
+.best_musics__title {
+    display: flex;
+    min-width: 100%;    
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    
+
+    h2 {
+        
+        font-size: 24px;
+        width: fit-content;        
+    }
+
+    p {
+        
+        font-size: medium;
+        width: fit-content;
+    }
+}
+
+.best_musics__list {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 100%;    
+    margin: 0px;
+    padding: 0px 10px;
+}

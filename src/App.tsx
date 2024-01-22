@@ -22,7 +22,7 @@ export default function App()
     const process = appProcesses();
         
     return (
-        <>
+        <div className="display">
             <layout.Overlay navBarIsOpen={process.navBarIsOpen}
                 openNavBar={process.toggleNavBar}
             />
@@ -32,7 +32,7 @@ export default function App()
             
             <layout.Navbar navBarIsOpen={process.navBarIsOpen}/>    
             <layout.PlayerControlsBar />                       
-        </>
+        </div>
     )
 }
 

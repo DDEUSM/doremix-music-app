@@ -1,7 +1,7 @@
 import uiIcons from "../../assets/ui-icons"
 import "./player-controls.scss";
 import "../../utils/styles-utils.scss";
-import img_url from "/images/i-aint-worried.png";
+import img_url from "/images/i-aint-worried.jpg";
 
 
 function processes()

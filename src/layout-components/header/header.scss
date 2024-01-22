@@ -1,15 +1,16 @@
 @import "../../index.scss";
 
 .header_container {
+    position: fixed;
+    top: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 43px;                
     padding: 5px 10px;
     width: 100%;
-    box-sizing: border-box; 
-    margin: 0px;   
-        
+    background-color: var(--white);
+    box-sizing: border-box;          
 }
 
 

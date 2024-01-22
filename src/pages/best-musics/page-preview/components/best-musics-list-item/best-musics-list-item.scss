@@ -1,0 +1,27 @@
+@import url("../../../../../index.scss");
+
+.best_musics__list__item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 92px;
+    border: 1px solid black;    
+}
+
+.best_musics__list__item__number {
+
+}
+
+.best_musics__list__item__infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;   
+    flex: 0 0 70%;
+    padding-left: 10px; 
+}
+
+.best_musics__list__item__img {
+    height: 100%;
+    object-fit: cover;
+}
