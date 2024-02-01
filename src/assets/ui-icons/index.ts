@@ -11,6 +11,7 @@ import LoopMusicIcon from "./loop-icon.svg?react";
 import Arrow from "./next-arrow-icon.svg?react";
 import GridView from "./grid-view.svg?react";
 import ListView from "./menu-burguer-icon.svg?react";
+import PlayPolygon from "./play-white.svg?react";
 
 export default 
 {
@@ -26,6 +27,7 @@ export default
     LoopMusicIcon,
     Arrow,
     GridView, 
-    ListView
+    ListView,
+    PlayPolygon
 }
 

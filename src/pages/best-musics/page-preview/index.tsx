@@ -8,9 +8,9 @@ function appProcess()
     function populateList(number: number)
     {
         const components: JSX.Element[] = [];
-        for (let i=0; i < number; i++)
+        for (let i=1; i <= number; i++)
         {
-            components.push(<ListItem />);
+            components.push(<ListItem podiumNumber={i}/>);
         }
         return components;
     }

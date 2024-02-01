@@ -2,13 +2,13 @@
 
 .overlay 
 {
-    position: absolute;
+    position: fixed; 
     top: 0;
     display: none;    
     background-color: var(--overlay-blue);
     height: 100%;
     width: 100%;
-    z-index: 3; 
+    z-index: 5; 
     transition: all ease-in .2s;   
 }
 

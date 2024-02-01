@@ -19,8 +19,7 @@ export default function Discover()
                 <UiIcons.ListView className="discover__svg" width={32} height={32} />
             </div>
             
-                <DiscoverMusicSlider />
-           
+                <DiscoverMusicSlider />           
         </div>
     )
 }

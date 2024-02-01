@@ -1,6 +1,6 @@
 @import url("../../../index.scss");
 
-.best_musics {
+.best_artists {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 
-.best_musics__title {
+.best_artists__title {
     display: flex;
     min-width: 100%;    
     justify-content: space-between;
@@ -31,7 +31,7 @@
     }
 }
 
-.best_musics__list {
+.best_artists__list {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;

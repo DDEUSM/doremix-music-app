@@ -2,6 +2,8 @@ import uiIcons from "../../assets/ui-icons"
 import "./player-controls.scss";
 import "../../utils/styles-utils.scss";
 import img_url from "/images/i-aint-worried.jpg";
+import MusicTitle from "../../utils/components/music-title";
+import AuthorTitle from "../../utils/components/author-title";
 
 
 function processes()
@@ -15,9 +17,14 @@ export default function()
         <div className="player_controls">
             <div className="player_controls__music">
                 <img className="player_controls__music__image" src={img_url} alt="" />
-                <div className="player_controls__music__infos">
-                    <h3>I Ain't Worried</h3>
-                    <p>OneRepublic</p>
+                <div className="player_controls__music__infos">     <MusicTitle 
+                        text="I Ain't Worried"
+                        color="blue"
+                    />
+                    <AuthorTitle 
+                        text="OneRepublic"
+                        color="black" 
+                    />
                 </div>
                 <button className="default_button"> 
                     <uiIcons.Arrow className="rotate_270"/>
